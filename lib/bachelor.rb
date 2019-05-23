@@ -53,5 +53,5 @@ total_age = 0
     num_contestants +=1
     avg_age = total_age/num_contestants
   end
-  avg_age
+  avg_age.round(0)
 end
