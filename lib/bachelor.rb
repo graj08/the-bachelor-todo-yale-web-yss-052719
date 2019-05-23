@@ -49,7 +49,7 @@ avg_age = 0
 num_contestants = 0
 total_age = 0
   data[season].each do |contestants|
-    total_age = total_age + contestants["age"].to_i
+    total_age = total_age + contestants["age"].to_f
     num_contestants +=1
     avg_age = total_age/num_contestants
   end
